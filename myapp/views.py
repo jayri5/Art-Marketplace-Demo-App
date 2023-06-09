@@ -10,7 +10,6 @@ from django.views.decorators.csrf import csrf_exempt
 from django.conf import settings
 from django.core.mail import send_mail
 from django.template.loader import render_to_string
-from django.http import HttpResponse
 # Create your views here.
 
 @login_required
